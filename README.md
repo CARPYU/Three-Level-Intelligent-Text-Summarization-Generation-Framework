@@ -1,1 +1,20 @@
 # Three-Level-Intelligent-Text-Summarization-Generation-Framework
+# LLM项目 - Qwen2-1.5B微调
+
+这个仓库包含了使用QLoRA对Qwen2-1.5B模型进行微调的代码。
+
+## 目录结构
+
+- `scripts/`: 包含所有训练、测试和数据预处理脚本
+
+## 使用说明
+
+1. 安装依赖
+2. 运行数据预处理脚本准备数据
+3. 使用train_qlora.py进行模型微调
+4. 使用testqwen2.py测试模型性能
+
+## 注意事项
+
+- 数据集和模型文件需要单独下载或准备
+- 请确保有足够的GPU内存（推荐4090 48G）
