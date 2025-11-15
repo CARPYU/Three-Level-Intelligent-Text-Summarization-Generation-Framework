@@ -1,8 +1,8 @@
-# TIS三级智能文本摘要生成框架
+# TISF三级智能文本摘要生成框架
 
 ## 项目概述
 
-TIS（Three-level Intelligent Summarization）框架是一个完整的三级智能文本摘要生成系统，能够根据输入文本的复杂度自动选择合适的处理策略，从简单的模板匹配到复杂的深度学习推理，提供高质量、高效率的摘要生成服务。
+TISF（Three-level Intelligent Summarization Framework）框架是一个完整的三级智能文本摘要生成系统，能够根据输入文本的复杂度自动选择合适的处理策略，从简单的模板匹配到复杂的深度学习推理，提供高质量、高效率的摘要生成服务。
 
 ### 框架特点
 
@@ -14,7 +14,7 @@ TIS（Three-level Intelligent Summarization）框架是一个完整的三级智�
 
 ## 工作原理
 
-TIS框架基于动态决策引擎，分析输入文本的复杂度特征，然后选择最合适的处理级别：
+TISF框架基于动态决策引擎，分析输入文本的复杂度特征，然后选择最合适的处理级别：
 
 1. **筛选级处理**：适用于结构简单、信息密度低的文本，采用轻量级模板匹配方法
 2. **推理级处理**：适用于中等复杂度文本，采用基于BERT+CRF的事件提取和推理路径生成
@@ -224,5 +224,5 @@ framework = ThreeLevelIntelligentFramework(model_config=model_config)
 
 如有任何问题或建议，请通过以下方式联系：
 
-- 项目维护者：TIS Framework Team
-- 电子邮件：support@tis-framework.com
+- 项目维护者：zzy
+- 电子邮件：401979468@qq.com
