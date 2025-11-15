@@ -7,7 +7,7 @@ Simple Text Processing Module Implementation
 三级智能文本摘要生成框架
 Three-Level Intelligent Text Summarization Framework
 
-作者：郑钟宇
+作者：ZZY
 日期：2025年9月
 版本：v1.0
 """
